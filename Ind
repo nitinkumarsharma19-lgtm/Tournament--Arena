@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tournament Arena</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Tournament Arena</h1>
+</header>
+
+<section class="hero">
+    <h2>ऑनलाइन टूर्नामेंट में भाग लें</h2>
+    <p>अपना नाम दर्ज करें और रजिस्टर करें</p>
+
+    <input type="text" id="name" placeholder="आपका नाम">
+    <button onclick="register()">रजिस्टर करें</button>
+</section>
+
+<section class="players">
+    <h3>रजिस्टर्ड खिलाड़ी</h3>
+    <ul id="playerList"></ul>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
